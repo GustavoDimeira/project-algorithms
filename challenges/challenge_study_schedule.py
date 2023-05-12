@@ -1,11 +1,10 @@
 def study_schedule(permanence_period, target_time):
-    try:
-        result = 0
-        if (target_time is None):
-            raise TypeError
-        for period in permanence_period:
-            if (target_time in range(period[0], period[1] + 1)):
-                result += 1
-        return result
-    except TypeError:
+    result = 0
+    if (target_time is None):
         return None
+    for start, end in permanence_period:
+        if (not type(start) == int or not type(end) == int):
+            return None
+        if (target_time >= start and target_time <= end):
+            result += 1
+    return result
