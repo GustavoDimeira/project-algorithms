@@ -8,5 +8,3 @@ def study_schedule(permanence_period, target_time):
         return result
     except TypeError:
         return None
-
-# print(study_schedule([(1, 2), (1, 3), (2, 3)], None))
