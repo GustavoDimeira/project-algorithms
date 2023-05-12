@@ -5,4 +5,6 @@ def recursive_inversor(word, low_index, high_index):
 
 
 def is_palindrome_recursive(word, low_index, high_index):
+    if (not word or len(word) == 0):
+        return False
     return (recursive_inversor(word, low_index, high_index) == word)
