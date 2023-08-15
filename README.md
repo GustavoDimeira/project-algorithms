@@ -191,12 +191,7 @@ Esse teste deve se chamar `test_encrypt_message`, e ele deve garantir que a fun�
   * divide `message` no índice `key`, inverte os caracteres de cada parte, e retorna a união das partes novamente com `"_"` entre elas
 * Se `key` for par:
   * divide `message` no índice `key`, inverte a posição das partes, inverte os caracteres de cada parte, e retorna a união das partes novamente com `"_"` entre elas
-
-Veja alguns exemplos:
-
-<p align="center">
-    <img src="encrypt-examples.png" alt="Exemplos ilustrativos da lógica da função encrypt_message" width="640" />
-</p>
+</details>
 
 <strong>Requisitos<strong>
 
