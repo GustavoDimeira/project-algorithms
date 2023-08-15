@@ -193,14 +193,14 @@ Esse teste deve se chamar `test_encrypt_message`, e ele deve garantir que a fun�
   * divide `message` no índice `key`, inverte a posição das partes, inverte os caracteres de cada parte, e retorna a união das partes novamente com `"_"` entre elas
 </details>
 
-<strong>Requisitos<strong>
+<summary><b>Requisitos</b></summary>
 
 <details>
-* O teste rejeita implementações que invertem a lógica de "par ou ímpar";
-* O teste rejeita implementações que não aplicam a regra de índice positivo válido;
-* O teste rejeita implementações que aplicam ordenação ao invés de inversão;
-* O teste rejeita implementações que não validam o tipo das entradas;
-* O teste aprova implementações corretas.
+* O teste rejeita implementações que invertem a lógica de "par ou ímpar";</br>
+* O teste rejeita implementações que não aplicam a regra de índice positivo válido;</br>
+* O teste rejeita implementações que aplicam ordenação ao invés de inversão;</br>
+* O teste rejeita implementações que não validam o tipo das entradas;</br>
+* O teste aprova implementações corretas.</br>
 
 </details>
 
